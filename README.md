@@ -23,26 +23,29 @@ The agent receives a user goal, creates an execution plan, selects the required 
 ---
 
 ## 🧠 Architecture
-User Request
-      |
-      ↓
-Agent Planner 🧠
-      |
-      ↓
-Agent Executor ⚙️
-  |
-|          |            |
-Loader   Cleaner   Visualizer
-|          |            |
-       |
-       ↓
-  Data Analyzer
-       |
-       ↓
-   Insights
 
-   
----
+```text
+                User Request
+                     |
+                     ↓
+              Agent Planner 🧠
+                     |
+                     ↓
+             Agent Executor ⚙️
+                     |
+        ---------------------------
+        |            |            |
+        ↓            ↓            ↓
+   Data Loader   Data Cleaner   Visualizer
+        |            |            |
+        ---------------------------
+                     |
+                     ↓
+              Data Analyzer 🧠
+                     |
+                     ↓
+                 Insights
+```
 
 ## 📂 Project Structure
 
