@@ -45,7 +45,10 @@ Loader   Cleaner   Visualizer
 ---
 
 ## 📂 Project Structure
+
+```text
 AI-Data-Analyst-Agent
+│
 ├── agent
 │   ├── planner.py
 │   ├── analyzer.py
@@ -58,12 +61,14 @@ AI-Data-Analyst-Agent
 │   └── analyzer.py
 │
 ├── data
+│
 ├── reports
+│
 ├── app.py
 ├── config.py
+├── README.md
 └── requirements.txt
-
----
+```
 
 ## ⚙️ Installation
 
