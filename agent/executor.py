@@ -2,7 +2,8 @@ from tools import (
     load_data,
     clean_data,
     create_bar_chart,
-    analyze_data
+    analyze_data,
+    generate_report
 )
 
 
@@ -47,6 +48,12 @@ class AgentExecutor:
 
                 for key, value in self.insights.items():
                     print(f"{key}: {value}")
+
+
+                generate_report(
+                    self.insights,
+                    "reports/AI_Analysis_Report.pdf"
+                )
 
 
         print("\n✅ Agent Execution Finished")
