@@ -1,5 +1,16 @@
-venv/
+# Python
 __pycache__/
 *.pyc
-.env
-.vscode/
+
+# Virtual Environment
+venv/
+
+# Generated data
+data/uploaded_data.csv
+
+# Generated reports
+reports/*.pdf
+reports/*.png
+
+# Streamlit cache
+.streamlit/
