@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# Generated data
+data/uploaded_data.csv
+
+# Generated reports
+reports/*.pdf
+reports/*.png
+
+# Streamlit secrets only (keep .streamlit/config.toml in git)
+.streamlit/secrets.toml
